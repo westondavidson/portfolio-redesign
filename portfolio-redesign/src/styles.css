@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #06d6a0;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Jomhuria', cursive; */
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
+.content {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.background-clip-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: #118ab2;
+    clip-path: polygon(70% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+    z-index: 0;
+}
+.background-clip-corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    background-color: #ffd166;
+    /* clip-path: polygon(70% 0, 100% 30%, 100% 100%, 0 100%, 0 0); */
+    z-index: -1;
+}

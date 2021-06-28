@@ -1,0 +1,40 @@
+#logo {
+    width:100px;
+    height:100px;
+    margin-bottom: -4rem;
+    
+}
+#logoOverlayed {
+    position: absolute;
+    width:100px;
+    height:100px;
+    top: 3.65rem;  /* position the top  edge of the element at the middle of the parent */
+    left: 49.2%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+    z-index: 99;
+}
+
+.background-clip {
+    position: relative;
+}
+
+.spacer {
+    width: 100px;
+
+}
+.navBorder {
+    /* transform: skewX(-20deg); */
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+}
+
+.nav-color{
+    background-color: #073b4c;
+    color: white;
+}
+
+.navContent{
+    /* transform: skewX(20deg); */
+}
+
