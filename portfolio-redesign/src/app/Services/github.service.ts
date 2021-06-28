@@ -10,16 +10,17 @@ export class GithubService {
   httpOptions = {
     headers: new HttpHeaders(
       {
-        'Access-Control-Allow-Origin':'*'
+        'Content-Type':'text/plain',
       }
-    )
+    ),
+    responseType: 'text' as const
   }
 
   constructor(private http:HttpClient) { }
 
   GetContributions() : Observable<any>
   {
-    return this.http.get("https://github.com/users/westondavidson/contributions", this.httpOptions);
+    return this.http.get("https://cors-anywhere.herokuapp.com/https://github.com/users/westondavidson/contributions", this.httpOptions);
   }
 
 }

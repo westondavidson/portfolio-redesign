@@ -1,0 +1,8 @@
+.github-floater{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 300px;
+    background-color: #ffd166;
+    padding: 10px;
+}
