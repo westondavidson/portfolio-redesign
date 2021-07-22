@@ -35,6 +35,6 @@ export class GithubStatsComponent implements OnInit {
     //this.githubCommits.replace(/\D/g,'');
     this.lineCount = this.githubCommits.split(/\r\n|\r|\n/);
     this.parsedCommits = this.lineCount[9].trim();
-    console.log(this.parsedCommits);
+    //console.log(this.parsedCommits);
   }
 }
