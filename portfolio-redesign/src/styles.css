@@ -17,6 +17,10 @@ body {
     border: 4px solid #FFFFFF;
 }
 
+.small-separator {
+    border: 1px solid #FFFFFF;
+}
+
 .background-clip-content {
     position: absolute;
     top: 0;
@@ -84,4 +88,12 @@ body {
   }
   
   
-  
+  .btn-primary, .btn-primary:active  {
+    background-color: #ffd166 !important;
+    color: black;
+}
+
+.btn-primary:hover, .btn-primary:visited {
+    background-color: #e8f1f7 !important;
+    color: black;
+}

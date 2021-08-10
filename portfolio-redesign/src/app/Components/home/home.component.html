@@ -10,7 +10,9 @@
             <div class="name">Weston Davidson</div> 
             <div class="page-title">Full-Stack .NET Developer</div>
             <hr class="wide-separator"/>
-            
+            <a type="button" href="../assets/Weston_Davidson_Resume.pdf" download="Weston_Davidson_Resume" class="btn btn-primary" >Resume Download</a>
+             | 
+            <button type="button" class="btn btn-primary">Contact</button>
             </div>
             <div class="col-sm-4">
                 <div class="img-border p-2">
@@ -22,20 +24,33 @@
         <div class="container-fluid p-0">
         <div class="row backgroundcontinued">
             <div class="col title page-title">
-                Language Experience - Months
+                Language Experience
             </div>
         </div>
         <div class="row">
             <div class="col content piechart backgroundcontinued">
-                <app-experience-charts></app-experience-charts>
+                <ngx-charts-advanced-pie-chart [results]="experienceData" [label]="label" ></ngx-charts-advanced-pie-chart>
             </div>
     </div>
+    <!-- make an ngfor loop for each section, and then another ngfor loop for each project within that category. like a tag system. -->
     <div class="row backgroundcontinued">
-        <div class="col">
-            This is where descriptions of my technologies will go.
+        <div class="title page-title ml-3">Area</div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="https://images.all-free-download.com/images/graphiclarge/belgium_514505.jpg" class="img-thumbnail">
+                </div>
+                <div class="col">
+                    <h1>project title</h1>
+                    <h5>skills employed: </h5>
+                    <p>description of project</p>
+                </div>
+            </div>
+            <hr class="small-separator"/>
         </div>
-
     </div>
 </div>
 
 </div>
+
+9104707939
