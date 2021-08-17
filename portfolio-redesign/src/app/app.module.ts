@@ -12,6 +12,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { GithubStatsComponent } from './Components/github-stats/github-stats.component';
 import { AboutComponent } from './Components/about/about.component';
 import { ExperienceChartsComponent } from './Components/experience-charts/experience-charts.component';
+import { PageTitleComponent } from './Components/page-title/page-title.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ExperienceChartsComponent } from './Components/experience-charts/experi
     HomeComponent,
     GithubStatsComponent,
     AboutComponent,
-    ExperienceChartsComponent
+    ExperienceChartsComponent,
+    PageTitleComponent
   ],
   imports: [
     BrowserModule,
